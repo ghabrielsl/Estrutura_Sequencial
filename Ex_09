@@ -1,0 +1,9 @@
+"""
+9 Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
+C = 5 * ((F-32) / 9).
+"""
+
+print('Conversor de Fahrenheit para Celsius')
+F = int(input('Graus Farenheit: '))
+C = 5*((F-32)/9 )
+print(f'{F} Graus Farenheit equivalem a {C:.2f} Graus Celsius')
