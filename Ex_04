@@ -1,0 +1,11 @@
+"""
+4 Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+"""
+
+b1 = int(input('Nota bimestral: '))
+b2 = int(input('Nota bimestral: '))
+b3 = int(input('Nota bimestral: '))
+b4 = int(input('Nota bimestral: '))
+total = b1+b2+b3+b4
+print(f'Total:{total}')
+print(f'Média:{total/4}')
