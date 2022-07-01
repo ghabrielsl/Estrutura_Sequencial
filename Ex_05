@@ -1,0 +1,7 @@
+"""
+5 Faça um Programa que converta metros para centímetros.
+"""
+print('Conversor de Metros para Centimetros')
+m = int(input('Quantos metros você quer converter? '))
+cm = m * 100
+print(f'{m}metro(s) = {cm} centímetros')
